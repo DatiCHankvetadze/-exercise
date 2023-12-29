@@ -1,0 +1,64 @@
+#header{
+     position:absolute;
+     left: 27%
+}
+
+h1{
+    font-size: 60px;
+}
+
+div{
+    text-align: center
+    
+
+    
+}
+
+ul{
+    color:white;
+    display:flex;
+    gap:50px;
+    position:absolute;
+    left: 31%;
+
+}
+
+
+a{
+    font-size:35px
+    
+}
+
+.color{
+    text-decoration: none;
+    color:black;
+    transition: 0.2s;
+}
+
+.color:hover{
+    color:blue
+}
+
+img{
+    position: absolute;
+    left:37.5%
+}
+
+#h2-1{
+    position:absolute;
+    left:44%
+}
+
+h2{
+    font-size: 35px;
+}
+
+P{
+    position: absolute;
+    left: 3%;
+}
+
+form{
+    position:absolute;
+    left:44%;
+}

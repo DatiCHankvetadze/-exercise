@@ -1,0 +1,54 @@
+div{
+    text-align: center
+}
+
+ul{
+    color:white;
+    display:flex;
+    gap:50px;
+    position:absolute;
+    left: 31%;
+
+}
+
+
+a{
+    font-size:35px
+    
+}
+
+.color{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    transition: 0.2s;
+}
+
+.color:hover{
+    color:blue
+}
+
+#Name{
+    position:absolute;
+    left: 25%
+}
+
+h3{
+    color: rgb(4, 4, 123);
+    font-size:40px
+}
+
+#stadium{
+    color: rgb(1, 99, 27);
+    font-size:25px;
+}
+
+h4{
+    position:absolute;
+    left: 35%
+    
+}
+
+img{
+    position: absolute;
+    left: 36%;
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Montserrat:wght@200&family=Roboto&family=Roboto+Condensed:wght@200&family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Kanit:ital@1&family=Montserrat:wght@200&family=Roboto+Condensed&family=Rubik+Doodle+Shadow&family=Rubik+Scribble&display=swap');
+
+h1{
+    text-align:center;
+    font-family:"Kanit";
+    
+}
+
+body{
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    font-family:"Lexend Deca";
+
+    
+}
+
+ul{
+    text-align: center;
+    font-size: 20px;
+}
+
+div{
+
+    text-align:left;
+    background-color: white;
+}
+
+.best{
+   color: #ffffff;;
+
+}
+
+.barca{
+
+    
+    font-size: 2rem;
+    color: #ff0000;;
+    transition: 0.10s;
+    /* width: 100%; 
+    border: 4px solid #4800ff;  */
+}
+    
+.barca:hover{
+
+    color:rgb(17, 17, 190)
+}
+
+h1{
+
+    display:flex;
+    
+}
+
+
+
+
+
+
+
+
