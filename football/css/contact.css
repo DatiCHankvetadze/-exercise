@@ -7,7 +7,7 @@ ul{
     display:flex;
     gap:50px;
     position:absolute;
-    left: 31%;
+    left: 29%;
 
 }
 
@@ -32,9 +32,12 @@ a{
 
 form{
     position:absolute;
-    left:43%;
+    left:42.5%;
     background-color:rgb(0, 0, 0);
+    border: 1px solid #ccc;
 }
+        
+
 
 p{
     color: white;
@@ -52,4 +55,8 @@ p{
 
 button{
     color:rgb(0, 0, 0)
+}
+
+input{
+    font-size:17px
 }

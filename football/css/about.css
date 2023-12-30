@@ -3,11 +3,11 @@ div{
 }
 
 ul{
-    color:white;
+    color:rgba(0, 0, 0, 0.034);;
     display:flex;
     gap:50px;
     position:absolute;
-    left: 31%;
+    left: 29%;
 
 }
 
@@ -19,7 +19,7 @@ a{
 
 .color{
     text-decoration: none;
-    color:rgb(0, 0, 0);
+    color:rgb(255, 254, 254);
     transition: 0.2s;
 }
 
@@ -29,26 +29,30 @@ a{
 
 #Name{
     position:absolute;
-    left: 25%
+    left: 18%
 }
 
 h3{
-    color: rgb(4, 4, 123);
+    color: rgb(245, 245, 255);
     font-size:40px
 }
 
 #stadium{
-    color: rgb(1, 99, 27);
+    color: rgb(255, 255, 255);
     font-size:25px;
 }
 
 h4{
     position:absolute;
-    left: 35%
+    left: 34%
     
 }
 
 img{
     position: absolute;
     left: 36%;
+}
+
+body{
+    background-color:rgba(0, 0, 0, 0.901); 
 }

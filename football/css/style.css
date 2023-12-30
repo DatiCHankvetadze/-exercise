@@ -1,10 +1,11 @@
 #header{
      position:absolute;
-     left: 27%
+     left: 23%
 }
 
 h1{
     font-size: 60px;
+    color:white;
 }
 
 div{
@@ -15,11 +16,11 @@ div{
 }
 
 ul{
-    color:white;
+    color: rgba(0, 0, 0, 0.034);
     display:flex;
     gap:50px;
     position:absolute;
-    left: 31%;
+    left: 29%;
 
 }
 
@@ -31,7 +32,7 @@ a{
 
 .color{
     text-decoration: none;
-    color:black;
+    color:rgb(255, 255, 255);
     transition: 0.2s;
 }
 
@@ -41,7 +42,8 @@ a{
 
 img{
     position: absolute;
-    left:37.5%
+    left:36%
+    
 }
 
 #h2-1{
@@ -61,4 +63,12 @@ P{
 form{
     position:absolute;
     left:44%;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.901);
+}
+
+#img{
+    background-color: rgba(0, 0, 0, 0.901);
 }
