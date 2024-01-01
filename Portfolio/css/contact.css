@@ -1,0 +1,52 @@
+body{
+    background-color: rgba(0, 0, 0, 0.900);
+}
+
+
+ul{
+   display:flex;
+   gap: 50px;
+}
+
+#ul{
+    color: rgba(20, 20, 20, 0);
+    position:absolute;
+    left: 32%;
+}
+
+a{
+    font-size:35px;
+    color:white;
+    text-decoration: none;
+}
+
+h2{
+    color: rgb(0, 255, 0);
+    position: absolute;
+    left: 42.5%;
+}
+
+#contact{
+    font-size: 50px;
+}
+
+form{
+    position: absolute;
+    left: 39%
+}
+
+input{
+    font-size:30px;
+    height: 30px;
+}
+
+button{
+    position: absolute;
+    left: 40.5%;
+    font-size:30px
+}
+
+
+p{
+    color: white;
+}
