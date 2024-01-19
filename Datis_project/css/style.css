@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: lightgreen;
+    text-shadow: 2px 2px 5px lightgreen
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 40px
+}
+
+ul{
+    display:flex;
+    gap:60%;
+    position: absolute;
+    left:24%
+    
+}
+
+.a{
+    color:rgb(0, 255, 0);
+    transition: 0.5s;
+}
+
+.a:hover{
+   color:green
+}
+
+
+#h1{
+    position: absolute;
+    left:22%
+}
+
+img{
+    position: absolute;
+    left:33.5%
+}
+
