@@ -1,0 +1,114 @@
+body{
+    background-color: #03254c;
+    height: 100vh;
+}
+
+img{
+    width:100px;
+    height: 100px;
+    border: 1px solid  lightgreen;
+    border-radius: 50%;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    height:115px;
+
+}
+
+nav{
+    width:40%;
+    display: flex;
+    justify-content: center;
+    gap:90px;
+    font-size:25px;
+    
+    
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: lightgreen;
+    font-family:sans-serif;
+    transition: 0.3s;
+}
+
+img{
+    margin:20px;
+    margin-left: 25%;
+    position: relative;
+}
+
+img:hover{
+    opacity: 0.80;
+}
+
+a:hover{
+    color: lightseagreen;
+}
+
+main{
+    background-color: #1b2838;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: px solid rgb(0, 0, 0);
+    margin: auto;
+    border-radius: 50px;
+    
+
+}
+
+input{
+    width: 400px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    transition-duration: 0.10s;
+
+}
+
+input:hover{
+    background-color: #000000; 
+    color: rgb(255, 255, 255);
+}
+
+
+textarea{
+    
+    width: 400px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 100px;
+    margin: 20px;
+    margin-left: 110px;
+    transition-duration: 0.10s;
+}
+
+button:hover{
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+}
+
+
+
+
