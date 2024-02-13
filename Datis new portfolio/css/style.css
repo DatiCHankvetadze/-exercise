@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Outfit:wght@300&family=Protest+Riot&display=swap');
+
+
+body{
+    background-color: hsl(0, 0%, 8%);
+   
+}
+
+#img1{
+    width: 90px;
+    height: 90px;
+    border: 1px solid  hsl(158, 36%, 37%);
+    border-radius: 50%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 200px;
+
+}
+
+a{
+    color: hsl(158, 36%, 37%);
+    font-size: 25px;
+    transition: 0.20s;
+    text-decoration: none;
+    font-family: 'Protest Riot', sans-serif;;
+
+}
+
+a:hover{
+    color:rgb(0, 255, 0);
+}
+
+nav{
+    display: flex;
+    gap:70px;
+    padding: 48px;
+}
+
+
+.div1{
+    background-color: hsl(0, 0%, 12%);
+    width:520px;
+    height:650px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid hsl(158, 36%, 37%);
+    
+}
+
+div{
+    margin-left: 35%;
+    margin-top: 80px;
+}
+
+h1{
+    color:white;
+    font-size:25px;
+    padding: 20px;
+}
+
+#p1{
+    color:hsl(75, 94%, 57%);
+    font-size:20px;
+    padding-left:55px;
+    margin-top: -25px;
+}
+
+#p2{
+    color:grey;
+    font-size:20px;
+    padding-left: 40px;
+    margin-top:50px;
+}

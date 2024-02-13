@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Outfit:wght@300&family=Protest+Riot&display=swap');
+
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+
+
+nav{
+    display:flex;
+    gap:90px;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
+.a1{
+    color:hsl(158, 36%, 37%);
+    text-decoration: none;
+    font-size:30px;
+    font-family: 'Protest Riot', sans-serif;;
+    transition: 0.20s;    
+}
+
+.a1:hover{
+    color:rgb(0, 255, 0);
+}
+
+main{
+    background-color: hsl(0, 0%, 12%);
+    width:420px;
+    height:470px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 839px;
+    margin-top: 150px;
+    border-radius: 35px;
+}
+
+p{
+    color:white;
+}
+
+div{
+    display: flex;
+    flex-direction:column;
+    gap:30px;
+    padding:1px;
+}
+
+button{
+    width:300px;
+    height:45px;
+    border-radius: 20px;
+    background-color:hsl(0, 0%, 20%) ;
+    border: 1px solid hsl(0, 0%, 20%) ;
+    color:hsl(158, 36%, 37%);
+    font-size:17px;
+    transition: 0.20s;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color: hsl(158, 36%, 37%);
+    color:hsl(0, 0%, 20%);
+}
+
+p{
+    font-size:30px;
+    font-family: 'Protest Guerrilla', sans-serif;
+}
+
+p b{
+    font-size:20px;
+    color:hsl(75, 94%, 57%);
+    display: flex;
+    justify-content: center;
+    padding:10px;
+    font-family: 'Inter', sans-serif;
+}
+
+p i{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(191, 191, 191);
+}
