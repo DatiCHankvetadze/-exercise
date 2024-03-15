@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+    width:100%;
+    height:100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width:100%;
+    height:130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a{
+    color:rgb(30, 30, 30);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    transition: 0.5s;
+    animation-name: rgb;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+header nav{
+    display: flex;
+    gap: 100px;
+}
+
+
+main{
+    width:100%;
+    height:870px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:100px;
+}
+
+main img{
+    width:800px;
+}
+
+h1{
+   color:white;
+   font-size: 60px;
+   font-family: sans-serif;
+   text-shadow: 0px 0px 70px white;
+}
+
+@keyframes rgb{
+    0%{
+        color:white;
+        transform: scale(1);
+        
+    }
+    50%{
+        color:rgb(59, 59, 59);
+        transform: scale(1.2);
+    }
+    100%{
+        color:white;
+        transform: scale(1);
+    }
+    
+}
