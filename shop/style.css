@@ -1,0 +1,375 @@
+body{
+    background-color:  rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 35rem;
+}
+
+.navbar{
+    height: 90px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 10px 600px;
+    background-color: rgba(0, 0, 0, 0.871);
+    gap: 40px;
+    opacity: 20; 
+    position: fixed;
+}
+
+.navbar nav{
+    display: flex;
+    gap: 50px;
+}
+
+.navbar a{
+    color: grey;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: 0.5s;
+}
+
+.navbar a:hover{
+    color: white;
+}
+
+.navbar img{
+    width: 80px;
+}
+
+.baner img{
+    width: 100%;
+    height: 955.5px;
+}
+
+header{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1{
+    font-family: sans-serif;
+    font-size: 37px;
+}
+
+
+header .parent{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+header .same{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+}
+
+header .same img{
+    width: 300px;
+    height: 300px;
+}
+
+#one_camera i{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: grey;
+}
+
+
+#two_camera i{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: grey;
+}
+
+#three_camera i{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: grey;
+}
+
+main .parentt{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 80px;
+   height: 150px;
+   border: 2px solid black;
+   border-radius: 15px;
+   width: 1000px;
+   box-shadow: 0px 0px 20px black;
+}
+
+main .parentt img{
+    width: 200px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1{
+    font-family: sans-serif;
+    font-size: 37px;
+}
+
+.canon img{
+    width: 200px;
+}
+
+.canon{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.same_canon{
+    width: 280px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px black;
+} 
+
+#parenttt{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(4, 1fr);
+    gap: 50px;
+    
+}
+
+.same_canon i{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: grey;
+}
+
+.canon h1{
+    font-size: 37px;
+    font-family: sans-serif;
+    color: rgb(237, 50, 55);
+}
+
+.nikon img{
+    width: 200px;
+}
+
+.nikon{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.same_nikon{
+    width: 280px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px black;
+} 
+
+#parentt{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(4, 1fr);
+    gap: 50px;
+    
+}
+
+.same_nikon i{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: grey;
+}
+
+.nikon h1{
+    font-size: 37px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.sony img{
+    width: 200px;
+}
+
+.sony{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.same_sony{
+    width: 280px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px black;
+} 
+
+#parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(4, 1fr);
+    gap: 50px;
+    
+}
+
+.same_sony i{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: grey;
+}
+
+.sony h1{
+    font-size: 37px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+   
+footer{
+    background-color: black;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+footer button{
+    width:450px;
+    height: 100px;
+    border-style: none;
+    background-color: white;
+    font-size: 30px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+footer button:hover{
+    background-color: rgb(194, 194, 194);
+    color: white;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 1600px){
+    .navbar{
+    height: 90px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 10px 410px;
+    background-color: rgba(0, 0, 0, 0.871);
+    gap: 40px;
+    opacity: 20; 
+    position: fixed;
+    }
+
+    .baner img{
+        width: 100%;
+        height: 755.5px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .navbar{
+        height: 90px;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        padding: 10px 0px;
+        background-color: rgba(0, 0, 0, 0.871);
+       
+        opacity: 20; 
+        position: fixed;
+        }
+
+        .baner img{
+            width: 100%;
+            height: 450px;
+        }
+
+        .navbar a{
+            font-size: 1px;
+        }
+
+        .navbar img{
+            width: 50px;
+        }
+
+        header .parent{
+            width: 100%;
+            height: 550px;
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+        header .same{
+            background-color: white;
+            width: 300px;
+            height: 410px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            border: 1px solid black;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px black;
+            flex-direction: column;
+        }
+}
