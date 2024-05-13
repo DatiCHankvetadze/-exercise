@@ -1,0 +1,492 @@
+body{
+    background-color: rgb(240, 242, 245);
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: white;
+    height: 60px;
+    display: flex;
+    padding: 0px 0px;
+    justify-content: space-between;
+    position: fixed;
+    width: 1892.5px;
+    
+}
+
+header #logo_search img{
+    width: 80px;
+}
+
+header #logo_search{
+    display: flex;
+    align-items: center;
+   
+}
+
+header #logo_search #search{
+    width: 230px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgb(240, 242, 245);
+}
+
+#buttons{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    
+}
+
+#buttons img{
+    width: 33px;
+}
+
+#social_account{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#social_account img{
+    width: 30px;
+    border-radius: 15px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 10px;
+}
+
+#left .buttons{
+    width: 370px;
+    background-color: none;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-style: none;
+    font-weight: 500;
+    font-size: 17px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+#left img{
+    width: 35px;
+}
+
+#left .buttons:hover{
+    background-color: rgb(228, 230, 232);
+}
+
+#left{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+#line{
+    background-color:grey;
+    width: 300px;
+    height: 1px;
+
+}
+
+#p_text{
+    color: grey;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    left: 10px;
+}
+
+#metis{
+    border-radius: 20px;
+    border-style: none;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+#left #metis:hover{
+    background-color: rgb(228, 230, 232);
+}
+
+#metis img{
+    background-color:rgb(216, 218, 223) ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    width: 34px;
+}
+
+#center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    
+}
+
+#center #story{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.story{
+    display: flex;
+    justify-content: center;
+    width: 179px;
+    height: 235px;
+    gap: -60px;
+}
+
+#post{
+    border-radius: 8px;
+    width:680px;
+    height: 710px;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+#post p{
+    display: flex;
+    padding-left: 10px;
+}
+
+#right{
+    height: 900px;
+    width: 400px;
+}
+
+#story img{
+      
+    opacity: 10;
+}
+
+#inpost img{
+    
+    width:680px;
+    height: 600px;
+ 
+}
+
+#logo{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#name{
+    display: flex;
+    align-items:start;
+    gap: 10px;
+}
+
+#name b{
+    padding-top: 6px;
+    font-weight: 300;
+}
+
+#input_search{
+    width: 600px;
+    height: 45px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    color:grey;
+    font-size: 20px;
+}
+
+#logo1{
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo1 img{
+    border-radius: 50%;
+}
+
+#middle{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    background-color: white;
+    height: 80px;
+    width: 680px;
+    justify-content: center;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+
+#user_logo{
+    border-radius: 50%;
+}
+
+#list1 img{
+    border-radius: 50%;
+}
+
+#list2 img{
+    border-radius: 50%;
+}
+
+#list3 img{
+    border-radius: 50%;
+}
+
+#list4 img{
+    border-radius: 50%;
+}
+
+#two_reklama{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 10px;
+}
+
+#img1{
+    width: 130px;
+    border-radius: 10px;
+}
+
+#img2{
+    width: 200px;
+    border-radius: 10px;
+}
+
+#reklama1,#reklama2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#right{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    font-family: sans-serif;
+    padding-left:70px;
+}
+
+#page{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#buttons2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 17px;
+    background-color: rgb(240, 242, 245);
+    border: none;
+}
+
+#buttons2 img{
+    border-radius: 50%;
+}
+
+#happy_birthday img{
+    width: 50px;
+    height: 50px;
+}
+
+#happy_birthday{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+@media screen and (max-width:1700px){
+    #buttons{
+        display: flex;
+        align-items: center;
+        gap: 80px;
+        
+    }
+    
+    #buttons img{
+        width: 27px;
+    }
+
+    header{
+        width: 1515.5px;
+    }
+
+    #post{
+        width: 650px;
+    }
+
+    #post img{
+        width: 650px;
+    }
+
+    #social_account{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    #social_account img{
+        width: 27px;
+        border-radius: 15px;
+    }
+
+    #middle{
+        width: 650px;
+    }
+    #input_search{
+        width: 575px;
+        height: 45px;
+        border-radius: 15px;
+        border: none;
+        background-color: rgb(240, 240, 240);
+        color:grey;
+        font-size: 20px;
+    }
+
+    @media screen and (max-width:1450px){
+        #buttons{
+            display: flex;
+            align-items: center;
+            gap: 80px;
+            
+        }
+        
+        #buttons img{
+            width: 27px;
+        }
+
+        header{
+            width: 1419.5px;
+        }
+    
+        #post{
+            width: 625px;
+        }
+    
+        #post img{
+            width: 625px;
+        }
+    
+        #social_account{
+            display: flex;
+            align-items: center;
+            gap: 18px;
+        }
+        
+        #social_account img{
+            width: 27px;
+            border-radius: 15px;
+        }
+    
+        #middle{
+            width: 625px;
+        }
+        #input_search{
+            width: 555px;
+            height: 45px;
+            border-radius: 15px;
+            border: none;
+            background-color: rgb(240, 240, 240);
+            color:grey;
+            font-size: 20px;
+        }
+        
+
+        #right{
+            width: 500px;
+        }
+
+        #two_reklama{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 0px 0px;
+        }
+        
+        #img1{
+            width: 80px;
+            border-radius: 10px;
+        }
+        
+        #img2{
+            width: 100px;
+            border-radius: 10px;
+        }
+        
+        #reklama1,#reklama2{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        
+        #right{
+            display: flex;
+            flex-direction: column;
+            gap: 1px;
+            font-family: sans-serif;
+            padding-left:60px;
+        }
+        
+        #page{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        
+        #buttons2{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            font-size: 17px;
+            background-color: rgb(240, 242, 245);
+            border: none;
+        }
+        
+        #buttons2 img{
+            border-radius: 50%;
+        }
+        
+        #happy_birthday img{
+            width: 50px;
+            height: 50px;
+        }
+        
+        #happy_birthday{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0px 10px;
+        }
+
+        #p_text{
+            font-size: 16px;
+        }
+    }
+    
+}

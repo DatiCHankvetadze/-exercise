@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input id="div-color" type="text" placeholder="color"/>
+        <input id="div-width" type="text" placeholder="width"/>
+        <input id="div-height" type="text" placeholder="height"/>
+        <button id="button" type="button" onclick="changediv()">Click me</button>
+    </form>
+    
+    <br><br><br><br><br><br><br>  
+
+    <div id="divBlock"></div>
+
+    <script>
+        const div = document.getElementById("divBlock");
+        const input_color = document.getElementById("div-color");
+        const input_width = document.getElementById("div-width");
+        const input_height = document.getElementById("div-height");
+
+        function changediv(){
+            div.style.backgroundColor = input_color.value;
+            div.style.width = input_width.value + "px";
+            div.style.height = input_height.value + "px";
+        };
+    </script>
+</body>
+</html>
