@@ -368,53 +368,45 @@ main{
         color:grey;
         font-size: 20px;
     }
+}
 
-    @media screen and (max-width:1450px){
+    @media screen and (max-width:1050px){
         #buttons{
             display: flex;
             align-items: center;
-            gap: 80px;
+            gap: 40px;
             
         }
         
         #buttons img{
-            width: 27px;
+            width: 22px;
         }
 
         header{
-            width: 1419.5px;
+            width: 920.5px;
         }
     
         #post{
-            width: 625px;
+            width: 300px;
+            height: 560px;
         }
     
         #post img{
-            width: 625px;
-        }
-    
-        #social_account{
-            display: flex;
-            align-items: center;
-            gap: 18px;
-        }
-        
-        #social_account img{
-            width: 27px;
-            border-radius: 15px;
+            width: 300px;
+            height: 550px;
         }
     
         #middle{
-            width: 625px;
+            width: 300px;
         }
         #input_search{
-            width: 555px;
+            width: 220px;
             height: 45px;
             border-radius: 15px;
             border: none;
             background-color: rgb(240, 240, 240);
             color:grey;
-            font-size: 20px;
+            font-size: 10px;
         }
         
 
@@ -430,12 +422,13 @@ main{
         }
         
         #img1{
-            width: 80px;
+            width: 50px;
             border-radius: 10px;
+            
         }
         
         #img2{
-            width: 100px;
+            width: 70px;
             border-radius: 10px;
         }
         
@@ -463,7 +456,7 @@ main{
             display: flex;
             justify-content: start;
             align-items: center;
-            font-size: 17px;
+            font-size: 12px;
             background-color: rgb(240, 242, 245);
             border: none;
         }
@@ -473,20 +466,99 @@ main{
         }
         
         #happy_birthday img{
-            width: 50px;
-            height: 50px;
+            width: 20px;
+            height: 20px;
         }
         
         #happy_birthday{
             display: flex;
             flex-direction: row;
             align-items: center;
-            padding: 0px 10px;
+            padding: 0px 0px;
         }
 
         #p_text{
-            font-size: 16px;
+            font-size: 12px;
         }
+
+        #left{
+            width: 240px;
+        }
+
+        .story{
+            display: flex;
+            justify-content: center;
+            width: 110px;
+            height: 170px;
+            
+        }
+
+        .story img{
+            width: 90px;
+            height: 150px;
+            
+        }
+
+        .text{
+            font-size: 10px;
+        }
+
+        #p1{
+            font-size: 10px;
+        }
+
+        header #logo_search img{
+            width: 50px;
+        }
+        
+        header #logo_search{
+            display: flex;
+            align-items: center;
+           
+        }
+        
+        header #logo_search #search{
+            width: 200px;
+            height: 30px;
+            border-radius: 20px;
+            border-style: none;
+            background-color: rgb(240, 242, 245);
+        
+    }
+
+    #left .buttons{
+        width: 210px;
+        background-color: none;
+        height: 60px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        border-style: none;
+        font-weight: 500;
+        font-size: 13px;
+        border-radius: 20px;
+        transition: 0.5s;
+    }
+    
+    #left img{
+        width: 25px;
+    }
+    
+    #left .buttons:hover{
+        background-color: rgb(228, 230, 232);
+    }
+    
+    #left{
+        display: flex;
+        flex-direction: column;
+        font-family: sans-serif;
+    }
+    
+    #line{
+        background-color:grey;
+        width: 200px;
+        height: 1px;
+    
     }
     
 }
