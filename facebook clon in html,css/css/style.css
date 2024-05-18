@@ -321,6 +321,18 @@ main{
     padding: 0px 10px;
 }
 
+#one_input #search_button{
+    width: 30px;
+    border:none;
+    background-color: white;
+    
+}
+
+#one_input{
+    display: flex;
+    align-items: center;
+}
+
 @media screen and (max-width:1700px){
     #buttons{
         display: flex;
