@@ -4,6 +4,8 @@ img{
 
 
 div{
-    transition: 0.5s;
+    transition: 1s;
+    border: none;
+    border-radius: 40px;
 }
 

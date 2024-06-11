@@ -198,18 +198,19 @@
 // math()
     
 // 17. inputs in console
-// function output(){
+function output(){
     
-//     const name = document.getElementById("input1").value;
-//     const lastname = document.getElementById("input2").value;
-//     const age = document.getElementById("input3").value;
-//     const button = document.getElementById("but").value;
+    const name = document.getElementById("input1").value;
+    const lastname = document.getElementById("input2").value;
+    const age = document.getElementById("input3").value;
+    const button = document.getElementById("but").value;
 
-//     console.log(name)
-//     console.log(lastname)
-//     console.log(age)
-// }
+    console.log(name)
+    console.log(lastname)
+    console.log(age)
+}
 
+// 18. change p 
 // function changeP(){
 //     const txt= document.getElementById("text").value;
 //     const color = document.getElementById("color").value;
@@ -220,20 +221,17 @@
 
 // }
 
+// 19. make div
+// function makeDiv(){
+//     const height = document.getElementById("height").value;
+//     const width = document.getElementById("width").value;
+//     const text =  document.getElementById("txt").value;
+//     const color = document.getElementById("backcolor").value;
+//     const p = document.getElementById("Pp");
+//     const div = document.getElementById("div");
 
-function makeDiv(){
-    const height = document.getElementById("height").value;
-    const width = document.getElementById("width").value;
-    const text =  document.getElementById("txt").value;
-    const color = document.getElementById("backcolor").value;
-    const p = document.getElementById("Pp");
-    const div = document.getElementById("div");
-
-    div.style.height = height + "px";
-    div.style.width = width + "px";
-    div.style.backgroundColor = color
-    p.textContent = text
-
-
-
-}
+//     div.style.height = height + "px";
+//     div.style.width = width + "px";
+//     div.style.backgroundColor = color
+//     p.textContent = text
+// }
